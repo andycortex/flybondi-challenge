@@ -34,10 +34,10 @@ const api = {
                 origin.availability,
                 destination.availability
               ),
-              price: origin.price + destination.price,
+              price: Math.ceil(origin.price + destination.price),
               days,
-              destination: origin.destination,
-              origin: destination.origin,
+              destination: destination.origin,
+              origin: origin.destination,
             });
           }
         }

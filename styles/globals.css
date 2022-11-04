@@ -10,6 +10,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
+table {
+  width: 100%;
+  border: 1px solid #D4AC0D;
+}
+
+thead th {
+  border-bottom: 1px solid #D4AC0D;
+  font-weight: bold;
+}
+
+td {
+  padding: 12px;
+}
 
 * {
   box-sizing: border-box;
